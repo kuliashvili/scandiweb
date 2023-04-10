@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Product Add</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="up">
+            <div class="left">
+                <h1 class="header">Product add</h1>
+            </div>
+            <div class="right">
+                <button id="save" class="save">SAVE</button>
+                <button id="cancel" class="cancel">CANCEL</button>
+            </div>
+        </div>
+        <div class="line">
+            <img src="images/line.png" alt="line" class="line-img">
+        </div>
+
+
+
+        <form class="product_form" id="product_form">
+            <div class="sku form-item">
+                <p class="sku-text">SKU</p>
+                <input id="sku" type="text">
+            </div>
+            <div class="name form-item">
+                <p class="name-text">Name</p>
+                <input id="name" type="text">
+            </div>
+            <div class="price form-item">
+                <p class="price-text">Price ($)</p>
+                <input id="price" type="number">
+            </div>
+            <div class="type-switcher form-item">
+                <p class="type-switcher-text">Switcher</p>
+                <select class="switch" name="switcher" id="productType">
+                    <option>Type Switcher</option>
+                    <option id="DVD" value="dvd">DVD-disc</option>
+                    <option id="Book" value="book">Book</option>
+                    <option id="Furniture" value="furniture">Furniture</option>
+                   
+                  </select>
+            </div>
+        </form>
+        <div id="dvd-details" class="dvd-details">
+            <div class="dvd-up">
+                <div class="size">Size (MB)</div>
+                <input id="size" type="number">
+            </div>
+            <div class="dvd-down">
+                <p class="info">Please, provide disc space in MB</p>
+            </div>
+
+        </div>
+        <div id="book-details" class="book-details">
+            <div class="book-up">
+                <div class="weight">Weight (KG)</div>
+                <input id="weight" type="number">
+            </div>
+            <div class="book-down">
+                <p class="info">Please, provide weight in kg </p>
+            </div>
+
+
+
+        </div>
+
+
+        <div id="furniture-details" class="furniture-details">
+            <div class="furniture-up">
+                <div class="height">Height (CM)</div>
+                <input id="height" type="number">
+            </div>
+            <div class="furniture-up">
+                <div class="width">Width (CM)</div>
+                <input id="width" type="number">
+            </div>
+            <div class="furniture-up">
+                <div class="length">Length (CM)</div>
+                <input id="length" type="number">
+            </div>
+
+            <div class="furniture-down">
+                <p class="info">Please, provide weight in kg </p>
+            </div>
+        </div>
+
+
+        <div class="down">
+            <div class="assignment">
+
+                <div class="line">
+                    <img src="images/line.png" alt="line" class="line-img">
+                </div>
+                <div class="assignment-text">Scandiweb Test assignment</div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+
+    <script src="main1.js"></script>
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>
