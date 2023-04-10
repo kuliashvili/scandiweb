@@ -1,5 +1,8 @@
 <h1>Junior Developer Test Task from Scandiweb</h1>
 
+
+
+
 ![image](https://user-images.githubusercontent.com/93291077/230920784-7f140245-b7eb-4779-a75e-e5c271478f6a.png)
 
 
